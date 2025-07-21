@@ -31,5 +31,5 @@ jobs:
 
     - name: Deploy to Kubernetes
       run: |
-        kubectl apply -f k8s/deployment.yaml
-        kubectl apply -f k8s/service.yaml
+        kubectl apply -f devops-demo/k8s/deployment.yaml
+        kubectl apply -f devops-demo/k8s/service.yaml
